@@ -96,19 +96,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.176.231.12:8191/landmark/repository/tesla-fe-releases/</url>
+	      <url>http://54.158.89.149:8181/mylandmarktech/repository/paypal-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.176.231.12:8191/landmark/repository/tesla-fe-snapshot/</url>
+	      <url>http://54.158.89.149:8181/mylandmarktech/repository/paypal-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>paypal</finalName>
 		
 		<plugins>
 			<plugin>
